@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>WebComponent - Uptime Widget</title>
 
-    <script src="lib/index.js" type="module"></script>
+    <script type="module">
+        import "./lib/index.js";
+    </script>
     <!-- <script src="https://cdn.skypack.dev/uptime-widget" type="module"></script> -->
     <style>
         body {
@@ -20,7 +22,6 @@
     <uptime-widget
         serverURL="https://status.ably.com/embed/uptime.json"
         href="https://status.ably.com"
-        text="visit status site">
-    </uptime-widget>
+        text="visit status site" />
 </body>
 </html>
