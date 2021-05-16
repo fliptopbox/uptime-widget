@@ -8,8 +8,7 @@
   "exports": {
     ".": "./lib/index.js",
     "./lib": "./lib/index.js",
-    "./lib/*": "./lib/*",
-    "import": "./lib/index.js"
+    "./lib/*": "./lib/*.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
