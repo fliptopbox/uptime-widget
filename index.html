@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebComponent - Uptime Widget</title>
+    <script src="lib/index.js" type="module"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        uptime-widget::part(cta) {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uptime</h1>
+    <uptime-widget
+        serverURL="https://status.ably.com/embed/uptime.json"
+        href="https://status.ably.com"
+        text="visit status site">
+    </uptime-widget>
+</body>
+</html>
