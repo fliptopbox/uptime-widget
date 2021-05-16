@@ -1,0 +1,30 @@
+{
+  "name": "uptime-widget",
+  "version": "0.0.2",
+  "description": "A POC web component that presents an uptime widget",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./lib": "./lib/index.js",
+    "./lib/index": "./lib/index.js",
+    "./lib/index.js": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fliptopbox/uptime-widget.git"
+  },
+  "keywords": [
+    "ably",
+    "uptime"
+  ],
+  "author": "Bruce Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fliptopbox/uptime-widget/issues"
+  },
+  "homepage": "https://github.com/fliptopbox/uptime-widget#readme"
+}
