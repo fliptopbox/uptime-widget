@@ -1,6 +1,6 @@
 {
   "name": "uptime-widget",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A POC web component that presents an uptime widget",
   "main": "./lib/index.js",
   "exports": {
