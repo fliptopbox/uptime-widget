@@ -8,9 +8,6 @@
     ".": "./lib/index.js",
     "./lib/*": "./lib/*.js"
   },
-  "files": [
-    "lib/*.js"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

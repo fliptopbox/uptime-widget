@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>WebComponent - Uptime Widget</title>
 
-    <script type="module">
-        import "./lib/index.js";
-    </script>
+    <script type="module" src="./lib/index.js"></script>
     <!-- <script src="https://cdn.skypack.dev/uptime-widget" type="module"></script> -->
+
     <style>
-        body {
-            font-family: sans-serif;
-        }
-        uptime-widget::part(cta) {
-            color: red;
-        }
+      body {
+        font-family: sans-serif;
+      }
+      uptime-widget::part(cta) {
+        color: red;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Uptime</h1>
     <uptime-widget
-        serverURL="https://status.ably.com/embed/uptime.json"
-        href="https://status.ably.com"
-        text="visit status site" />
-</body>
+      serverURL="https://status.ably.com/embed/uptime.json"
+      href="https://status.ably.com"
+      text="visit status site"
+    />
+  </body>
 </html>
