@@ -2,12 +2,7 @@
   "name": "uptime-widget",
   "version": "0.0.14",
   "description": "A POC web component that presents an uptime widget",
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./lib/*": "./lib/*.js"
-  },
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
