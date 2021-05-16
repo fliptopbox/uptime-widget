@@ -3,12 +3,12 @@
   "version": "0.0.6",
   "description": "A POC web component that presents an uptime widget",
   "type": "module",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
+  "files": ["dist/*"],
   "exports": {
-    ".": "./lib/index.js",
-    "./lib": "./lib/index.js",
-    "./lib/*": "./lib/*.js",
-    "./package.json": "./package.json"
+    ".": "lib/index.js",
+    "./lib": "lib/index.js",
+    "./lib/*": ".lib/*"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
