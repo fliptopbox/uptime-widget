@@ -1,11 +1,12 @@
 {
   "name": "uptime-widget",
   "version": "0.1.4",
-  "description": "A POC web component that presents an uptime widget",
+  "description": "A Web Component that presents the 90day uptime status for Ably realtime",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "scripts": {
+    "build": "esbuild lib/index.js --bundle --outfile=dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,7 +15,10 @@
   },
   "keywords": [
     "ably",
-    "uptime"
+    "realtime",
+    "uptime",
+    "network",
+    "status"
   ],
   "author": "Bruce Thomas",
   "license": "MIT",

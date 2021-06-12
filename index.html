@@ -3,21 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <title>WebComponent - Uptime Widget</title>
-
-    <script type="module" src="./dist/index.js"></script>
-    <!-- <script src="https://cdn.skypack.dev/uptime-widget" type="module"></script> -->
+    <script type="module">
+      import "https://cdn.skypack.dev/uptime-widget";
+    </script>
 
     <style>
       body {
         font-family: sans-serif;
+        margin: 5vw;
+        background-color: #222;
+        color: #efefef;
       }
+
+      /* Expose interal element for external CSS styling */
       uptime-widget::part(cta) {
         color: red;
+        font-weight:900;
       }
     </style>
   </head>
   <body>
-    <h1>Uptime</h1>
+    <h1>Uptime Widget</h1>
+    <p>
+      A web component that presents an uptime graph for the status of the Ably
+      realtime network over the last 90 days.
+    </p>
     <uptime-widget
       serverURL="https://status.ably.com/embed/uptime.json"
       href="https://status.ably.com"
