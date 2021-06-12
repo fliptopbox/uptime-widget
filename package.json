@@ -1,6 +1,6 @@
 {
   "name": "uptime-widget",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Web Component that presents the 90day uptime status for Ably realtime",
   "type": "module",
   "main": "dist/index.js",
