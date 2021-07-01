@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/fliptopbox/uptime-widget#readme",
   "dependencies": {
-    "esbuild": "^0.12.8"
+    "esbuild": "^0.12.13"
   }
 }
